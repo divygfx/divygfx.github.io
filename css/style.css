@@ -68,17 +68,19 @@ p {
 }
 /*-- buttons --*/
 
+
 .btn-primary {
     background-color: #dce6ff;
-    color: var(--c-main);
+    color:var(--c-main) ;
     border-radius: 10px;
-    padding: 10px 22px;
+    padding: 11px 22px;
     font-weight: bold;
     margin: var(--1-5) 0;
     transition: 0.7s;
 }
 .btn-primary:hover {
-    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+
+    box-shadow: rgba(0, 0, 0, 0.144) 0 4px 12px;
 }
 .btn-second {
     background-color: var(--c-main);
@@ -178,12 +180,22 @@ nav .fas {
     flex-basis: 50%;
     width: 100%;
 }
+
+
 .head-right-col {
     flex-basis: 50%;
     width: 100%;
+
+    
 }
+.head-right-col:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    transition: 1s;
+} 
 .head-right-col img {
     max-width: 60%;
+   
 }
 
 .head-text h1 {
